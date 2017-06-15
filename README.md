@@ -64,7 +64,6 @@ if (state === "SUCCESS") {
 
 The error handler will only respond to method calls its the parent component.
 
-===
 
 ## Limitations
 
@@ -72,3 +71,7 @@ The error handler will only respond to method calls its the parent component.
 * I haven't done any sort of event bubbling management (stopPropogation, etc) if you're using option 1, so be cautious about hanging one of these on every branch of your component tree and firing off events.  :)
 * I recommend using option1 only where you know there's only one of these on the page, or you very carefully apply the ErrorHandlerName
 
+<a href="https://githubsfdeploy.herokuapp.com?owner=mshanemc&repo=LightningErrorHandler">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png"/>
+</a>
