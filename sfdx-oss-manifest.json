@@ -2,6 +2,8 @@
   "sfdxSource": true,
   "version": "1.0.0",
   "sourceFolder" : "force-app/main/default",
-  "folders" : ["aura"],
-  "files": []
+  "folders" : ["aura/handleCallbackError", "aura/LightningErrorHandler"],
+  "files": [
+
+  ]
 }
