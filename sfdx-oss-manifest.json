@@ -1,12 +1,13 @@
 {
   "sfdxSource": true,
   "version": "1.0.0",
+  "sourceFolder" : "force-app/main/default",
   "files": [
-      "force-app/main/default/aura/handleCallbackError/handleCallbackError.evt-meta.xml",
-      "force-app/main/default/aura/handleCallbackError/handleCallbackError.evt",
-      "force-app/main/default/aura/LightningErrorHandler/LightningErrorHandler.cmp",
-      "force-app/main/default/aura/LightningErrorHandler/LightningErrorHandler.cmp-meta.xml",
-      "force-app/main/default/aura/LightningErrorHandler/LightningErrorHandlerController.js",
-      "force-app/main/default/aura/LightningErrorHandler/LightningErrorHandlerHelper.js"
+      "aura/handleCallbackError/handleCallbackError.evt-meta.xml",
+      "aura/handleCallbackError/handleCallbackError.evt",
+      "aura/LightningErrorHandler/LightningErrorHandler.cmp",
+      "aura/LightningErrorHandler/LightningErrorHandler.cmp-meta.xml",
+      "aura/LightningErrorHandler/LightningErrorHandlerController.js",
+      "aura/LightningErrorHandler/LightningErrorHandlerHelper.js"
   ]
 }
