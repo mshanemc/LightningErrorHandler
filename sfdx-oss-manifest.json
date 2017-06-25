@@ -2,12 +2,6 @@
   "sfdxSource": true,
   "version": "1.0.0",
   "sourceFolder" : "force-app/main/default",
-  "files": [
-      "aura/handleCallbackError/handleCallbackError.evt-meta.xml",
-      "aura/handleCallbackError/handleCallbackError.evt",
-      "aura/LightningErrorHandler/LightningErrorHandler.cmp",
-      "aura/LightningErrorHandler/LightningErrorHandler.cmp-meta.xml",
-      "aura/LightningErrorHandler/LightningErrorHandlerController.js",
-      "aura/LightningErrorHandler/LightningErrorHandlerHelper.js"
-  ]
+  "folders" : ["aura"],
+  "files": []
 }
