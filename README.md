@@ -92,9 +92,20 @@ if (state === "SUCCESS") {
 * I haven't done any sort of event bubbling management (stopPropogation, etc) if you're using option 1, so be cautious about hanging one of these on every branch of your component tree and firing off events.  :)
 * I recommend using option1 only where you know there's only one of these on the page, or you very carefully apply the ErrorHandlerName
 
+
+---
+
+# Install
+
+## from source
+
 <a href="https://githubsfdeploy.herokuapp.com?owner=mshanemc&repo=LightningErrorHandler">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png"/>
 </a>
 
-[![Deploy](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com/deploy?template=https://github.com/mshanemc/lightningErrorHandler)
+## as a managed package
+
+Namespace is `shane:` so all the instructions above need to be adjusted for the namespace where `c:` was shown
+
+Deploy as a [managed package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6A000001QxsjQAC)

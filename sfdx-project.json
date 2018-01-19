@@ -1,0 +1,18 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "id": "0Ho6A000000000BSAQ",
+      "versionName": "v 1",
+      "versionDescription": "events and method",
+      "versionNumber" : "1.0.0.NEXT",
+      "orgPreferences" : {
+        "enabled" : ["S1DesktopEnabled"]
+      }
+    }
+  ],
+  "namespace": "shane",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "41.0"
+}
