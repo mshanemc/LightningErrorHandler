@@ -109,3 +109,10 @@ if (state === "SUCCESS") {
 Namespace is `shane:` so all the instructions above need to be adjusted for the namespace where `c:` was shown
 
 Deploy as a [managed package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6A000001QxsjQAC)
+
+
+## Package2.0 DCP-Unlocked
+
+no namespace.
+
+Deploy as a [unlocked](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6A000001S2xqQAC)
