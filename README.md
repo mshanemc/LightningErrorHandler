@@ -97,12 +97,24 @@ if (state === "SUCCESS") {
 
 # Install
 
-## from source
+## from source via web
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=mshanemc&repo=LightningErrorHandler">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png"/>
 </a>
+
+## from source with sfdx to scratch org
+```
+git clone https://github.com/mshanemc/LightningErrorHandler
+sfdx force:source:push -u usernameOrAlias
+```
+
+## from source with sfdx to sandbox/production org
+```
+git clone https://github.com/mshanemc/LightningErrorHandler
+sfdx force:mdapi:deploy -w 15 -d src -u usernameOrAlias
+```
 
 ## as a managed package
 
@@ -111,7 +123,7 @@ Namespace is `shane:` so all the instructions above need to be adjusted for the 
 Deploy as a [managed package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t6A000001QxsjQAC)
 
 
-## Package2.0 DCP-Unlocked
+## as a package2.0 DCP-Unlocked
 
 no namespace.
 
